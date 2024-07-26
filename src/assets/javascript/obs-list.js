@@ -149,7 +149,7 @@ const Obs_list = [
         },
         {
             image:rithika,
-            name:"RITHIKA ROOBINI",
+            name:"RITHIGA ROOBINI R",
             desg:"EXECUTIVE COMMITTEE",
             p_link:"Nil",
             l_link:"Nil",
