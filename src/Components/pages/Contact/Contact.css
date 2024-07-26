@@ -1,0 +1,132 @@
+.contact-sec {
+    margin: 5px;
+    margin-bottom: 1rem;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    position: relative;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+}
+
+.contact-sec h2 {
+    padding-top: 20px;
+    text-align: center;
+    color: #2f90ff;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    font-family: "Red Hat Display", sans-serif;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+.contact-left h1 {
+    font-size: 50px;
+    background: linear-gradient(270deg, #894affe8 10%, #2f90ff 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-left {
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.contact-left h3 {
+    font-weight: 400;
+    padding-left: 10px;
+    font-size: 18px;
+    color: rgb(255, 194, 194);
+}
+
+.contact-left h4 {
+    font-weight: 400;
+    padding-left: 22px;
+    font-size: 15px;
+    color: rgb(177, 233, 255);
+}
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name, .email {
+    padding-top: 20px;
+    background-color: rgb(51, 51, 51);
+    border: 1px solid greenyellow;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.text-area {
+    background-color: rgb(51, 51, 51);
+    border: 1px solid greenyellow;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 500px;
+    height: 300px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.submit {
+    width: 120px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(270deg, #4294ffe8 10%, #ff06ff 90%);
+    transition: .3s;
+}
+
+.submit:hover {
+    transform: translate(0, -8px);
+}
+
+@media (max-width: 610px) {
+    .contact-us {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 430px) {
+    .contact-us {
+        flex-direction: column;
+    }
+    .name, .email {
+        width: 320px;
+        height: 30px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    
+    .text-area {
+        background-color: rgb(51, 51, 51);
+        border: 1px solid greenyellow;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        width: 320px;
+        height: 200px;
+        font-size: 15px;
+    }
+    
+    .submit {
+        width: 100px;
+    }
+}

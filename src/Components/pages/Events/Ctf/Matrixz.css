@@ -1,0 +1,268 @@
+.ctf {
+    margin: 10px;
+    font-family: "Share Tech", sans-serif;
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.ctf h2 {
+    font-size: 53px;
+    letter-spacing: 10px;
+    font-weight: 900;
+    text-align: center;
+    background: -webkit-linear-gradient(180deg,rgb(0, 255, 64), rgb(121, 38, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ctf-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.ctf-about {
+    font-family: "Share Tech", sans-serif;
+    color: white;
+    background-color: black;
+    border: 1px rgb(173, 173, 255) solid;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.ctf-about h3 {
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.ctf-about h4 {
+    color: greenyellow;
+    margin: 0;
+    padding: 20px;
+    font-size: 32px;
+}
+
+.ctf-about ul {
+    margin: 0;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.ctf-about ul li {
+    padding: 10px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.ctf-about:hover {
+    transform: scale(1.05);
+}
+
+.ctf-about ul li:hover {
+    color: skyblue;
+    border-left: 0.5px solid red;
+}
+
+.ctf-duration {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.time { 
+    font-family: "Share Tech", sans-serif;
+    color: white;
+    background-color: black;
+    border: 1px rgb(203, 255, 182) solid;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.time h3 {
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;   
+}
+
+.time p {
+    color: cadetblue;
+    margin: 0;
+    padding: 0px 20px;
+    font-size: 25px;
+}
+
+.time ul {
+    margin: 0;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.time ul li {
+    font-size: 20px;
+    padding-left: 10px;
+    border-left: 1px solid pink;
+}
+
+.time:hover {
+    border-color: pink;
+    transform: scale(1.05);
+}
+
+.prize {   
+    font-family: "Share Tech", sans-serif;
+    color: white;
+    background-color: rgb(26, 26, 26);
+    border: 1px rgb(79, 255, 182) solid;
+    border-radius: 20px;
+    transition: .4s;
+    max-width: 380px;
+}
+
+.prize h3 {
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;   
+    padding: 20px 20px  0px;
+}
+
+.prize p {
+    margin: 0;
+    font-size: 25px;
+}
+
+.prize ul {
+    margin: 0;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.prize ul li {
+    font-size: 20px;
+    padding-left: 10px;
+    border-left: 1px solid skyblue;
+}
+
+.prize:hover {
+    transform: scale(1.04);
+    border-color: red;
+}
+
+.ctf-banner {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+}
+
+.banner img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.banner img:hover {
+    opacity: 100%;
+    box-shadow: rgba(255, 255, 255, 0.8) 0 0 5px 2px;
+}
+
+.queries {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.queries li {
+    font-size: 22px;
+}
+
+.contact-num {
+    font-family: "Share Tech", sans-serif;
+    color: white;
+    background-color: black;
+    border: 1px solid blueviolet;
+    padding: 20px;
+}
+
+.contact-num h3 {
+    margin: 0;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.contact-num ul {
+    margin: 0;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.coordinator-details {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border: 1px solid skyblue;
+    padding: 10px;
+    background-color: darkslategray;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coordinator-details h4 {
+    display: block;
+    color: white;
+}
+
+.c-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-details img {
+    border-radius: 50px;
+    width: 100px;
+}
+
+.c-details p {
+    color: white;
+    width: 130px;
+}
+
+.register-btn a {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(270deg, #4294ffe8 10%, #ff06ff 90%);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+@media (max-width: 1140px) {
+    .ctf-section {
+        flex-direction: column-reverse;
+    }
+    .banner img {
+        width: 320px;
+        border-radius: 10px;
+    }
+    .queries {
+        flex-direction: column-reverse;
+    }
+    .coordinator-details {
+        gap: 5px;
+        padding: 5px;
+    }
+    .c-details img {
+        width: 100px;
+    }
+    .prize {
+        max-width: 300px;
+    }
+}
+

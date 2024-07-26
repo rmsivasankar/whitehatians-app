@@ -1,0 +1,124 @@
+.office-bearers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    position: relative;
+}
+
+.staffs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.profile-cards{
+    margin-top: 2rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    font-family: sans-serif;
+    width: 180px;
+    height: 180px;
+    background: #000000;
+    padding: 15px;
+    border: 2px solid rgb(32, 255, 47);
+    border-radius: 50%;
+    transition: .6s;
+}
+
+.profile-cards:hover{
+    border-radius: 10px;
+    height: 260px;
+}
+
+.profile-cards .imgs{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    transition: .6s;
+    z-index: 0;
+  }
+
+.imgs img{
+    width: 100%;
+    border-radius: 50%;
+    transition: .6s;
+}
+
+.profile-cards:hover .imgs{
+    transform: translateY(-60px);
+}
+
+.profile-cards:hover img{
+    border-radius: 10px;
+}
+
+.captions{
+    text-align: center;
+    transform: translateY(-80px);
+    opacity: 0;
+    transition: .6s;
+}
+.profile-cards:hover .captions{
+    opacity: 1;
+}
+.captions h3{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(235, 235, 235);
+}
+.captions p{
+    font-size: 15px;
+    color: #ffd138;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 2px 0 9px 0;
+}
+
+.captions .social-linkss a{
+    color: #333;
+    margin-right: 15px;
+    font-size: 21px;
+    transition: .6s;
+}
+.social-linkss a:hover{
+    color: #0c52a1;
+}
+
+@media (max-width: 1000px) {
+    .staffs {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .staffs {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .profile-cards{
+        border-radius: 10px;
+        height: 260px;
+    }
+    .profile-cards .imgs{
+        transform: translateY(-60px);
+    }
+    
+    .profile-cards img{
+        border-radius: 10px;
+    }
+    .profile-cards .captions{
+        opacity: 1;
+    }
+    .social-linkss a{
+        color: #0c52a1;
+    }
+}
+

@@ -1,0 +1,57 @@
+footer {
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    font-family: "Rubik", sans-serif;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-sec {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+ul li {
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.contact ul {
+    flex-direction: column;
+}
+
+.pages ul {
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+hr {
+    width: 90%;
+    
+}
+
+.right ul {
+    gap: 50px;
+}
+
+@media  (max-width: 430px) {
+    .footer-sec {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .right {
+        flex-direction: column;
+    }
+    .right ul {
+        gap: 5px;
+        flex-direction: column;
+    }
+}

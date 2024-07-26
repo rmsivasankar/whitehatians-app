@@ -1,0 +1,244 @@
+.upcoming-events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    margin-top: 3rem;
+    color: white;
+}
+
+.upcoming-events h2 {
+    text-align: center;
+    color: #cc846e;
+}
+
+.event-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+}
+
+.event {
+    margin-top: 30px;
+    margin-bottom: 30px;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+.event img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.overlay {
+	width: 90%;
+	height: 60px;
+	background: linear-gradient(transparent,#1c1c1c 58%);
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	font-size: 12px;
+	transition: height 0.5s;
+    text-align: justify;
+    padding: 1rem;
+}
+.overlay h3 {
+	font-weight: 500;
+	margin-bottom: 5px;
+	margin-top: 80%;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.overlay p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.overlay a {
+	margin-top: 10px;
+	color: #262626;
+	text-decoration: none;
+	font-size: 14px;
+	background: #fff;
+	border-radius: 50px;
+	text-align: center;
+	padding: 5px 15px;
+}
+.event:hover img{
+    transform: scale(1.1);
+}
+.event:hover .overlay{
+    height: 100%;
+}
+
+.completed-events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    margin-top: 3rem;
+    color: white;
+}
+
+.completed-events h2 {
+    text-align: center;
+    color: #8f8f8f;
+}
+
+.event-grid1 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+}
+
+.event1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+.event1 img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.overlay1 {
+	width: 90%;
+	height: 0;
+	background: linear-gradient(transparent,#1c1c1c 58%);
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	font-size: 12px;
+	transition: height 0.5s;
+    text-align: justify;
+    padding: 1rem;
+}
+.overlay1 h3 {
+	font-weight: 500;
+	margin-bottom: 5px;
+	margin-top: 80%;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.overlay1 a {
+	margin-top: 10px;
+	color: #262626;
+	text-decoration: none;
+	font-size: 14px;
+	background: #fff;
+	border-radius: 50px;
+	text-align: center;
+	padding: 5px 15px;
+}
+.event1:hover img{
+    transform: scale(1.1);
+}
+.event1:hover .overlay1{
+    height: 100%;
+}
+
+@media (max-width: 610px) {
+    .event-grid {
+        grid-template-columns: 1fr;
+    }
+    .event img{
+        transform: scale(1.1);
+    }
+    .event .overlay{
+        height: 100%;
+    }
+    .event-grid1 {
+        grid-template-columns: 1fr;
+    }
+    .event1 img{
+        transform: scale(1.1);
+    }
+    .event1 .overlay{
+        height: 100%;
+    }
+}
+
+@media (max-width: 890px) {
+    .event-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .event img{
+        transform: scale(1.1);
+    }
+    .event .overlay{
+        height: 100%;
+    }
+    .event-grid1 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .event1 img{
+        transform: scale(1.1);
+    }
+    .event1 .overlay1{
+        height: 100%;
+    }
+}
+
+@media  (max-width: 430px) {
+    .event-grid {
+        grid-template-columns: 1fr ;
+    }
+    .event img{
+        transform: scale(1.1);
+    }
+    .event .overlay{
+        height: 100%;
+    }
+    .event-grid1 {
+        grid-template-columns: 1fr;
+    }
+    .event1 img{
+        transform: scale(1.1);
+    }
+    .event1 .overlay1{
+        height: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .event img{
+        transform: scale(1.1);
+    }
+    .event .overlay{
+        height: 100%;
+    }
+    .event1 img{
+        transform: scale(1.1);
+    }
+    .event1 .overlay1{
+        height: 100%;
+    }
+}
