@@ -21,7 +21,7 @@ const Coord_list = [
         name:"S ARAVIND IV YEAR CYBERSECURITY"
     },
     {
-        avatar:arav,
+        avatar:gan,
         name:"H GANESH IV YEAR CYBERSECURITY"
     },
 ]
