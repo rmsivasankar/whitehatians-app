@@ -46,7 +46,6 @@ const Matrixz = () => {
                             <h3>ENTRY FEE <ConfirmationNumberIcon style={{color: "skyblue"}} /> </h3>
                             <ul style={{color: "yellowgreen"}}>
                                 <li>Per Team : <span style={{color: "red"}}>₹149</span></li>
-                                <li>Per Person : <span style={{color: "red"}}>₹49</span></li>
                             </ul>
                         </div>
                         <div className='time'>
