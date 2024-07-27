@@ -84,6 +84,7 @@ const Matrixz = () => {
                         <ul>
                             <li>+91 9042568655</li>
                             <li>+91 7904747081</li>
+                            <li>+91 6381098798</li>
                         </ul>
                     </div>
                     <div className='coordinator-details'>
