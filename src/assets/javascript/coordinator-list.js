@@ -1,11 +1,12 @@
 import wh_logo from '../../assets/Logo/Logo.png'
+import raj from '../../Images/Staffs/raj.png'
 import siva from '../Images/Obs/siva.png'
 import arav from '../Images/Obs/aravind.jpg'
 import gan from '../Images/Obs/ganesh_h.png'
 
 const Coord_list = [
     {
-        avatar:wh_logo,
+        avatar:raj,
         name:"Mr. E RAJKUMAR ASST. PROF CYBERSECURITY"
     },
     {
