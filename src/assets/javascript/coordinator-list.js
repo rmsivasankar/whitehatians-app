@@ -3,7 +3,7 @@ import raj from '../Images/Staffs/raj.png'
 import siva from '../Images/Obs/siva.png'
 import arav from '../Images/Obs/aravind.jpg'
 import gan from '../Images/Obs/ganesh_h.png'
-import rag from '../Images/Obs/raghavi.png'
+import rag from '../Images/Staffs/raghavi.png'
 
 const Coord_list = [
     {
