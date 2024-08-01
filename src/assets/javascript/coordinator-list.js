@@ -3,6 +3,7 @@ import raj from '../Images/Staffs/raj.png'
 import siva from '../Images/Obs/siva.png'
 import arav from '../Images/Obs/aravind.jpg'
 import gan from '../Images/Obs/ganesh_h.png'
+import rag from '../Images/Obs/raghavi.png'
 
 const Coord_list = [
     {
@@ -10,7 +11,7 @@ const Coord_list = [
         name:"Mr. E RAJKUMAR ASST. PROF CYBERSECURITY"
     },
     {
-        avatar:wh_logo,
+        avatar:rag,
         name:"Ms. RAGHAVI M ASST. PROF CYBERSECURITY"
     },
     {
