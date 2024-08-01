@@ -49,7 +49,7 @@ const Contact = () => {
                     <h4>Phone to: +91 9xxxxxxxxx</h4>
                     <h3>Secretary:</h3>
                     <h4>Mail to: secretary@whitehatians.in</h4>
-                    <h4>Phone to: +91 9xxxxxxxxx</h4>
+                    <h4>Phone to: +91 9042568655</h4>
                 </div>
                 <form onSubmit={onSubmit} className='contact-right'>
                     <input className='name' type='text' placeholder='Enter your Name' name='name' required />
