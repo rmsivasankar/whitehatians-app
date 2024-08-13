@@ -25,7 +25,7 @@ const Events = () => {
                             <div class="overlay">
                                 <h3 key={index}>{event_l.event_title}</h3>
                                 <p key={index}>{event_l.event_description}</p>
-                                <Link key={index} to={event_l.reg_link}>REGISTER NOW</Link>
+                                <Link key={index} to={event_l.reg_link} target="_blank">REGISTER NOW</Link>
                         </div>
                     </div>
                 })}
