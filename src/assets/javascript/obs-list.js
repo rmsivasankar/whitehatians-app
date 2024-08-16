@@ -39,9 +39,9 @@ const Obs_list = [
             image:siva,
             name:"R M SIVASANKAR",
             desg:"SECRETARY",
-            p_link:"Nil",
-            l_link:"Nil",
-            i_link:"Nil"
+            p_link:"https://techsploit.tech/",
+            l_link:"https://www.linkedin.com/in/r-m-sivasankar-419072217/",
+            i_link:"https://www.instagram.com/_imsivas"
         },
         {
             image:ganesh,
@@ -80,8 +80,8 @@ const Obs_list = [
             name:"KALESH J",
             desg:"ADMINISTRATIVE HEAD",
             p_link:"Nil",
-            l_link:"Nil",
-            i_link:"Nil"
+            l_link:"https://www.linkedin.com/in/kalesh-j-788521244/",
+            i_link:"https://www.instagram.com/kalesh__j?igsh=b3ZvN2szOWQ5ZDN4"
         },
         {
             image:wh_logo,
