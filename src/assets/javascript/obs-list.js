@@ -1,4 +1,4 @@
-import wh_logo from '../../assets/Logo/Logo.png'
+        import wh_logo from '../../assets/Logo/Logo.png'
 import venu from '../Images/Obs/venusarathy.jpg'
 import siva from '../Images/Obs/siva.png'
 import meena from '../Images/Obs/meena.png'
@@ -109,7 +109,7 @@ const Obs_list = [
         },
         {
             image:wh_logo,
-            name:"VIVEKA RP",
+            name:"RAHAMATHULLA K",
             desg:"FUNCTIONAL HEAD",
             p_link:"Nil",
             l_link:"Nil",
@@ -145,6 +145,14 @@ const Obs_list = [
             desg:"PROMOTIONAL MANAGER",
             p_link:"Nil",
             l_link:"https://linkedin.com/in/jayakeerthick-r",
+            i_link:"Nil"
+        },
+        {
+            image:wh_logo,
+            name:"SHARIKA ",
+            desg:"PROMOTIONAL MANAGER",
+            p_link:"Nil",
+            l_link:"Nil",
             i_link:"Nil"
         },
         {
