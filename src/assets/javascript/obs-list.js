@@ -1,4 +1,4 @@
-        import wh_logo from '../../assets/Logo/Logo.png'
+import wh_logo from '../../assets/Logo/Logo.png'
 import venu from '../Images/Obs/venusarathy.jpg'
 import siva from '../Images/Obs/siva.png'
 import meena from '../Images/Obs/meena.png'
