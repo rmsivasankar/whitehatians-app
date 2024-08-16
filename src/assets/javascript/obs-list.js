@@ -29,7 +29,7 @@ const Obs_list = [
         },
         {
             image:venu,
-            name:"VENU SARATHY",
+            name:"VENU SARATHY V",
             desg:"VICE PRESIDENT",
             p_link:"Nil",
             l_link:"Nil",
@@ -69,7 +69,7 @@ const Obs_list = [
         },
         {
             image:arav,
-            name:"ARAVIND SIDDARTH",
+            name:"ARAVIND SIDDARTH S",
             desg:"ADMINISTRATIVE HEAD",
             p_link:"Nil",
             l_link:"https://linkedin.com/in/aravind-siddarth-283764202",
@@ -77,7 +77,7 @@ const Obs_list = [
         },
         {
             image:kalesh,
-            name:"KALESH",
+            name:"KALESH J",
             desg:"ADMINISTRATIVE HEAD",
             p_link:"Nil",
             l_link:"Nil",
@@ -85,7 +85,7 @@ const Obs_list = [
         },
         {
             image:wh_logo,
-            name:"SURYA",
+            name:"SURYA K",
             desg:"ADMINISTRATIVE MANAGER",
             p_link:"Nil",
             l_link:"Nil",
@@ -93,7 +93,7 @@ const Obs_list = [
         },
         {
             image:yasmin,
-            name:"YASMIN",
+            name:"YASMIN K",
             desg:"ADMINISTRATIVE MANAGER",
             p_link:"Nil",
             l_link:"https://linkedin.com/in/yasmin-kasim-a50680263",
@@ -101,7 +101,7 @@ const Obs_list = [
         },
         {
             image:arun,
-            name:"ARUN KUMAR",
+            name:"ARUN KUMAR M",
             desg:"FUNCTIONAL HEAD",
             p_link:"Nil",
             l_link:"Nil",
@@ -117,7 +117,7 @@ const Obs_list = [
         },
         {
             image:ananthi,
-            name:"ANANTHI",
+            name:"ANANTHI P",
             desg:"FUNCTIONAL MANAGER",
             p_link:"Nil",
             l_link:"https://linkedin.com/in/anathi-p-4109a5282",
@@ -125,7 +125,7 @@ const Obs_list = [
         },
         {
             image:alagu,
-            name:"ALAGU SHRUTHI",
+            name:"ALAGU SRUTHI BHARATHI A",
             desg:"FUNCTIONAL MANAGER",
             p_link:"Nil",
             l_link:"https://linkedin.com/in/alagu-sruthi-bharathi-b4952325a",
@@ -133,7 +133,7 @@ const Obs_list = [
         },
         {
             image:benjamin,
-            name:"REINHARDT BENJAMIN",
+            name:"REINHARDT BENJAMIN E",
             desg:"VISUAL HEAD",
             p_link:"Nil",
             l_link:"Nil",
@@ -141,7 +141,7 @@ const Obs_list = [
         },
         {
             image:keerthik,
-            name:"JAYAKEERTHIK",
+            name:"JAYAKEERTHIK R",
             desg:"PROMOTIONAL MANAGER",
             p_link:"Nil",
             l_link:"https://linkedin.com/in/jayakeerthick-r",
@@ -149,7 +149,7 @@ const Obs_list = [
         },
         {
             image:wh_logo,
-            name:"SHARIKA ",
+            name:"SHARIKA J",
             desg:"PROMOTIONAL MANAGER",
             p_link:"Nil",
             l_link:"Nil",
@@ -173,7 +173,7 @@ const Obs_list = [
         },
         {
             image:rakesh,
-            name:"RAKESH KANNAN",
+            name:"RAKESH KANNAN C K",
             desg:"EXECUTIVE COMMITTEE",
             p_link:"Nil",
             l_link:"Nil",
@@ -181,7 +181,7 @@ const Obs_list = [
         },
         {
             image:vinitha,
-            name:"VINITHA",
+            name:"VINITHA G",
             desg:"EXECUTIVE COMMITTEE",
             p_link:"Nil",
             l_link:"Nil",
