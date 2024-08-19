@@ -28,7 +28,7 @@ const Matrixz = () => {
                                 <li>DESIGN AND AESTHETICS</li>
                                 <li>FUNCTIONALITY</li>
                                 <li>PERFORMANCE</li>
-                                <li>ACCESSIBILITY</li>
+                                <li>RESPONSIVE</li>
                             </ul>
                         </div>
                     </div>
