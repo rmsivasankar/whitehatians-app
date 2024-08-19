@@ -28,7 +28,7 @@ const App = () => {
         <Route path="/office-bearers" element={<OfficeBearer />} />
         <Route path='/all-ob' element={<Obs />} />
         <Route path="/contact-us" element={<Contact />} />
-        <Route path="/matrixz-ctf" element={<Matrixz />}/>
+        <Route path="/codewars" element={<Matrixz />}/>
         <Route path="*" element={<h1 className='not-found'>Page Not Found<br></br> Error 404 </h1>} />
       </Routes>
       <Footer />
