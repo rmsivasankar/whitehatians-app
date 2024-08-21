@@ -12,42 +12,51 @@ const Matrixz = () => {
         <div>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>CODEWARS 2.0</title>
+                <title>HACKOPS</title>
                 <link rel="canonical" href="https://www.whitehatians.in/matrixz-ctf" />
             </Helmet>
         </div>
             <div className='ctf'>
-                <h2>CODEWARS 2.0</h2>
+                <h2>HACKOPS</h2>
                 <div className='ctf-section'>
                     <div className='ctf-event'>
                         <div className='ctf-about'>
-                            <h3>STYLING + ANIMATION</h3>
-                            <h4>Evaluvation Criteria</h4>
+                            <h3>ABOUT THE EVENT</h3>
+                            <h4>JEOPARDY STYLE</h4>
                             <ul>
-                                <li>CODE QUALITY</li>
-                                <li>DESIGN AND AESTHETICS</li>
-                                <li>FUNCTIONALITY</li>
-                                <li>PERFORMANCE</li>
-                                <li>ACCESSIBILITY</li>
+                                <li>OSINT</li>
+                                <li>REVERSE ENGINEERING</li>
+                                <li>CRYPTOGRAPHY</li>
+                                <li>FORENSICS</li>
+                                <li>BINARY EXPLOITATION</li>
+                                <li>WEB EXPLOITATION</li>
+                                <li>BOOT2ROOT</li>
                             </ul>
                         </div>
                     </div>
                     <div className='ctf-duration'>
                         <div className='prize'>
-                            <h3>PRIZE POOL <span style={{color:"red"}}>₹2,000</span></h3>
+                            <h3>PRIZE POOL <span style={{color:"red"}}>₹4500</span></h3>
                             <ul style={{color: "yellowgreen"}}>
-                                <li>CASH PRIZE</li>
-                                <li>FOOD WILL BE PROVIDED TO ALL PARTICIPANTS</li>
+                                <li>ENTRY FEE: ₹150</li>
+                                <li>REFRESHMENTS WILL BE PROVIDED TO ALL PARTICIPANTS</li>
+                            </ul>
+                        </div>
+                        <div className='time'>
+                            <h3>SPONSORED BY</h3>
+                            <p><Link style={{color:"red"}} target='_blank' to="https://www.alteredsecurity.com/">ALTERED SECURITY</Link></p>
+                            <ul>
+                                <li></li>
                             </ul>
                         </div>
                         <div className='time'>
                             <h3>EVENT DURATION</h3>
-                            <p>2 Hours</p>
+                            <p>8 Hours</p>
                             <ul>
-                                <li>24th August 2024</li>
-                                <li>Starts at 10:30 AM</li>
-                                <li>Ends at 12:00 PM</li>
-                                <li>LAB 7 3rd FLOOR</li>
+                                <li>9th September 2024</li>
+                                <li>Starts at 10:00 AM</li>
+                                <li>Ends at 6:00 PM</li>
+                                <li>ADMIN BLOCK 2ND FLOOR</li>
                             </ul>
                         </div>
                     </div>
@@ -55,15 +64,14 @@ const Matrixz = () => {
                         <div className='prize'>
                             <h3>ENTRY RULES <RuleIcon style={{color: "skyblue"}} /></h3>
                             <ul style={{color: "yellowgreen"}}>
-                                <li>Eligibility: Open to all students and web enthusiasts.</li>
-                                <li>HTML Markup: Modify only the provided HTML; no removal of elements.</li>
-                                <li>Tools: Use any CSS frameworks or JS libraries for enhancements.</li>
-                                <li>Design: Ensure responsiveness across devices and creative animations.</li>
-                                <li>Submission: Submit all files (HTML, CSS, JS) by the deadline.</li>
+                                <li>Before the event, carefully read and understand the rules and guidelines provided by the organizers.</li>
+                                <li>Do not interfere with the competition environment or other participants’ systems.</li>
+                                <li>If you’re part of a team, maintain clear and effective communication with your teammates.</li>
+                                <li>Always adhere to ethical hacking principles. Do not attempt to cheat, plagiarize, or use unauthorized methods to capture flags</li>
                             </ul>
                         </div>
                         <div className='register-btn'>
-                            <Link target='blank_'>Download Files</Link>
+                            <Link target='blank_' to="https://forms.gle/63q1tH5Ydwdrfzq3A">Register Now</Link>
                         </div>
                     </div>
                 </div>
@@ -71,11 +79,12 @@ const Matrixz = () => {
                     <div className='contact-num'>
                         <h3>FOR QUEREIES CONTACT:</h3>
                         <ul>
-                            <li>+91 9042568655</li>
+                            <li>Kavin : +91 8248451747</li>
+                            <li>Sivasankar : +91 9042568655</li>
+                            <li>Aravind: +91 7904747081</li>
                         </ul>
                     </div>
-                    {
-                        /*
+                    
                             <div className='coordinator-details'>
                                 {Coord_list.map((cord_list,index) => {
                                 return <div className='c-details'>
@@ -84,8 +93,6 @@ const Matrixz = () => {
                                     </div>
                                 })}
                             </div>
-                         */
-                    }
                 </div>
             </div>
         </>

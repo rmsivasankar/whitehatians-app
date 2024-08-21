@@ -24,7 +24,7 @@ const News = () => {
                         <img key={index} src={blog_l.image} alt="rover" />
                         <div class="card-body">
                             <span class="tag tag-teal" key={index}>{blog_l.tag}</span>
-                            <p key={index}>{blog_l.desc}<Link key={index} to={blog_l.lin_link}>Read More</Link></p>                        
+                            <p key={index}>{blog_l.desc}<Link key={index} to={blog_l.link}>Read More</Link></p>                        
                             <div class="user">
                                 <img key={index} src={blog_l.icon} alt="user" />
                                 <div class="user-info">
