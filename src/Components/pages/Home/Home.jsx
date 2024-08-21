@@ -16,6 +16,7 @@ import Event_list from '../../../assets/javascript/events-list';
 import images_list from '../../../assets/javascript/images-list';
 import Sponsor_list from '../../../assets/javascript/sponsor-list';
 import { Helmet } from 'react-helmet';
+import { Analytics } from "@vercel/analytics/react"
 
 const Home = () => {
     return (
@@ -87,6 +88,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Analytics />
             <div className='sponsor'>
                 <h2>SPONSOR<PaidIcon /></h2>
                 <div className='sponsor-list'>
