@@ -5,6 +5,7 @@ import RuleIcon from '@mui/icons-material/Rule';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import Coord_list from '../../../../assets/javascript/coordinator-list';
+import { Analytics } from "@vercel/analytics/react"
 
 const Matrixz = () => {
     return (
@@ -75,6 +76,7 @@ const Matrixz = () => {
                         </div>
                     </div>
                 </div>
+                <Analytics />
                 <div className='queries'>
                     <div className='contact-num'>
                         <h3>FOR QUEREIES CONTACT:</h3>
