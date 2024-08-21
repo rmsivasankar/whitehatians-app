@@ -37,7 +37,7 @@ const Matrixz = () => {
                     </div>
                     <div className='ctf-duration'>
                         <div className='prize'>
-                            <h3>PRIZE POOL <span style={{color:"red"}}>₹4500</span></h3>
+                            <h3>PRIZE POOL <span style={{color:"red"}}>₹4,500</span></h3>
                             <ul style={{color: "yellowgreen"}}>
                                 <li>ENTRY FEE: ₹150</li>
                                 <li>REFRESHMENTS WILL BE PROVIDED TO ALL PARTICIPANTS</li>
