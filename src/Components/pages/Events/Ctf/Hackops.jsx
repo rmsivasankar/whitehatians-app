@@ -45,7 +45,7 @@ const Matrixz = () => {
                         </div>
                         <div className='time'>
                             <h3>SPONSORED BY</h3>
-                            <p><Link style={{color:"yellow"}}  target='_blank' to="https://www.alteredsecurity.com/">ALTERED SECURITY</Link></p>
+                            <p><Link style={{color:"#ff6949"}}  target='_blank' to="https://www.alteredsecurity.com/">ALTERED SECURITY</Link></p>
                             <ul>
                                 <li></li>
                             </ul>
