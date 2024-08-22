@@ -1,5 +1,4 @@
 import as_logo from '../../assets/Logo/alteredsecurity_logo.jpeg'
-import hb_logo from '../../assets/Logo/hebesectech_logo.jpeg'
 
 const Sponsor_list = [
     {
