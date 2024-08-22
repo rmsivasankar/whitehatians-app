@@ -16,16 +16,12 @@ const Coord_list = [
         name:"Ms. SATHYA T ASST. PROF CYBERSECURITY"
     },
     {
-        avatar:wh_logo,
-        name:"KAVIN SURYA IV YEAR CYBERSECURITY"
-    },
-    {
         avatar:siva,
-        name:"SIVASANKAR IV YEAR CYBERSECURITY"
+        name:"SIVASANKAR FINAL YEAR CYBERSECURITY"
     },
     {
         avatar:arav,
-        name:"S ARAVIND IV YEAR CYBERSECURITY"
+        name:"S ARAVIND FINAL YEAR CYBERSECURITY"
     },
 ]
 
