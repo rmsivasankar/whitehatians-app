@@ -10,7 +10,7 @@ const Coord_list = [
     {
         avatar:msen,
         name:"DR. M. SENTHIL KUMAR CONVENOR CYBERSECURITY",
-        
+    },   
     {
         avatar:sathya,
         name:"Ms. SATHYA T ASST. PROF CYBERSECURITY"
