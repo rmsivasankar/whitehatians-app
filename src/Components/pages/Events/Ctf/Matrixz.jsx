@@ -67,14 +67,15 @@ const Matrixz = () => {
                     </div>
                 </div>
                 <div className='queries'>
-                    <div className='contact-num'>
+                    
+                    {
+                        /*
+                        <div className='contact-num'>
                         <h3>FOR QUEREIES CONTACT:</h3>
                         <ul>
                             <li>+91 9042568655</li>
                         </ul>
                     </div>
-                    {
-                        /*
                             <div className='coordinator-details'>
                                 {Coord_list.map((cord_list,index) => {
                                 return <div className='c-details'>
