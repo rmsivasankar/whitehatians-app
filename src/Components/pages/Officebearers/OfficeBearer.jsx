@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LinkIcon from '@mui/icons-material/Link';
 import Staff_list from '../../../assets/javascript/staff-list'
+import Staff_list1 from '../../../assets/javascript/staff-list1'
 import Ob_list from '../../../assets/javascript/ob-list';
 import PersonIcon from '@mui/icons-material/Person';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -20,6 +21,9 @@ const OfficeBearer = () => {
             </Helmet>
         </div>
             <div className='office-bearer'>
+            <div className='head'>
+                <h1 style={{color:"greenyellow"}}>CONVENOR</h1>
+            </div>
             <div className='staff'>
             {Staff_list.map((staff_l,index) => {
                 return  <div class="profile-card">
@@ -33,7 +37,29 @@ const OfficeBearer = () => {
                         <Link key={index} to={staff_l.p_link}><LinkIcon style={{color: "white"}} fontSize='large' /></Link>
                         <Link key={index} to={staff_l.l_link}><LinkedInIcon style={{color: "#0c52a1"}} fontSize='large' /></Link>
                     </div>
+                    </div>                    
                     </div>
+                    } )}
+                </div>
+            </div>
+            <div className='office-bearer'>
+            <div className='head'>
+                <h1 style={{color:"greenyellow"}}>COORDINATOR</h1>
+            </div>
+            <div className='staff'>
+            {Staff_list1.map((staff_l,index) => {
+                return  <div class="profile-card">
+                    <div class="img">
+                        <img key={index} src={staff_l.image} />
+                    </div>
+                    <div class="caption">
+                        <h3 key={index}>{staff_l.name}</h3>
+                        <p key={index}>{staff_l.desg}</p>
+                    <div class="social-links">
+                        <Link key={index} to={staff_l.p_link}><LinkIcon style={{color: "white"}} fontSize='large' /></Link>
+                        <Link key={index} to={staff_l.l_link}><LinkedInIcon style={{color: "#0c52a1"}} fontSize='large' /></Link>
+                    </div>
+                    </div>                    
                     </div>
                     } )}
                 </div>
