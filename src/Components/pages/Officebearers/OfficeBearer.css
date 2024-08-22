@@ -1,6 +1,6 @@
 .office-bearer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 5px;
