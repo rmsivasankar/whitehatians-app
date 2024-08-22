@@ -7,11 +7,6 @@ const Sponsor_list = [
         c_name:"Altered Security",
         c_link:"https://www.alteredsecurity.com/"
     },
-    {
-        logo:hb_logo,
-        c_name:"Hebesec Technologies",
-        c_link:"https://www.hebesec.com/"
-    },
 ]
 
 export default Sponsor_list;
