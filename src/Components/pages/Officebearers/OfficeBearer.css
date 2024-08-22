@@ -1,6 +1,6 @@
 .office-bearer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 5px;
@@ -8,14 +8,7 @@
     font-family: "Oswald", sans-serif;
     color: white;
     position: relative;
-}
-
-.staff {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    padding-top: 30px;
 }
 
 .profile-card{
