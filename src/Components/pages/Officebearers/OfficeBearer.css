@@ -21,10 +21,10 @@
 .profile-card{
     position: relative;
     font-family: sans-serif;
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     background: #000000;
-    padding: 15px;
+    padding: 35px;
     border: 2px solid rgb(50, 255, 255);
     border-radius: 50%;
     transition: .6s;
@@ -39,7 +39,7 @@
 .profile-card .img{
     position: relative;
     width: 100%;
-    height: 80%;
+    height: 100%;
     transition: .6s;
     z-index: 0;
   }
