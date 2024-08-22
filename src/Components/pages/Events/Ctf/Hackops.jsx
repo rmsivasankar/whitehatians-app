@@ -86,8 +86,8 @@ const Matrixz = () => {
                             <li>Aravind: +91 7904747081</li>
                         </ul>
                     </div>
-                    
-                            <div className='coordinator-details'>
+                    {*
+                        <div className='coordinator-details'>
                                 {Coord_list.map((cord_list,index) => {
                                 return <div className='c-details'>
                                     <img key={index} src={cord_list.avatar} />
@@ -95,6 +95,7 @@ const Matrixz = () => {
                                     </div>
                                 })}
                             </div>
+                    *}
                 </div>
             </div>
         </>
