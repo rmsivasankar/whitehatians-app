@@ -72,7 +72,7 @@ const Matrixz = () => {
                             </ul>
                         </div>
                         <div className='register-btn'>
-                            <Link target='blank_' to="https://forms.gle/63q1tH5Ydwdrfzq3A">Register Now</Link>
+                            <Link target='blank_' to="https://forms.gle/m6XtmQnG4Ybn6NJc8">Register Now</Link>
                         </div>
                     </div>
                 </div>
