@@ -1,4 +1,4 @@
-import msen from '../Images/Staffs/msen.png';
+import msen from '../Images/Staffs/m-senthil-kumar.png';
 import sathya from '../Images/Staffs/sathya.png'
 
 const Staff_list = [
