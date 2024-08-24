@@ -33,10 +33,11 @@ const Matrixz = () => {
                     </div>
                     <div className='ctf-duration'>
                         <div className='prize'>
-                            <h3>PRIZE POOL <span style={{color:"red"}}>₹2,000</span></h3>
+                            <h3>PRIZE POOL <span style={{color:"red"}}>₹2,200</span></h3>
                             <ul style={{color: "yellowgreen"}}>
-                                <li>CASH PRIZE</li>
-                                <li>FOOD WILL BE PROVIDED TO ALL PARTICIPANTS</li>
+                                <li>1st Place -  Rs 1000</li>
+                                <li>2nd Place - Rs 700</li>
+                                <li>3rd Place - Rs 500</li>
                             </ul>
                         </div>
                         <div className='time'>
@@ -44,8 +45,8 @@ const Matrixz = () => {
                             <p>2 Hours</p>
                             <ul>
                                 <li>24th August 2024</li>
-                                <li>Starts at 10:30 AM</li>
-                                <li>Ends at 12:00 PM</li>
+                                <li>Starts at 2:30 PM</li>
+                                <li>Ends at 3:30 PM</li>
                                 <li>LAB 7 3rd FLOOR</li>
                             </ul>
                         </div>
