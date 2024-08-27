@@ -39,9 +39,9 @@ const Obs_list = [
             image:siva,
             name:"R M SIVASANKAR",
             desg:"SECRETARY",
-            p_link:"Nil",
-            l_link:"Nil",
-            i_link:"Nil"
+            p_link:"https://tryhackme.com/p/rmsivasankar",
+            l_link:"https://www.linkedin.com/in/r-m-sivasankar-419072217/",
+            i_link:"https://www.instagram.com/_imsivas"
         },
         {
             image:ganesh,
