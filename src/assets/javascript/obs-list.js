@@ -55,9 +55,9 @@ const Obs_list = [
             image:sri,
             name:"SRI VENKATESH",
             desg:"JOINT SECRETARY",
-            p_link:"Nil",
+            p_link:"https://tryhackme.com/p/srivenkatesh0775",
             l_link:"https://linkedin.com/in/srisec01",
-            i_link:"Nil"
+            i_link:"https://www.instagram.com/cybera__/"
         },
         {
             image:janani,
@@ -65,7 +65,7 @@ const Obs_list = [
             desg:"JOINT TREASURER",
             p_link:"Nil",
             l_link:"https://linkedin.com/in/janani-janarthanan-ba7067258",
-            i_link:"Nil"
+            i_link:"https://www.instagram.com/janani_john_sj2"
         },
         {
             image:arav,
@@ -80,8 +80,8 @@ const Obs_list = [
             name:"KALESH J",
             desg:"ADMINISTRATIVE HEAD",
             p_link:"Nil",
-            l_link:"Nil",
-            i_link:"Nil"
+            l_link:"https://www.linkedin.com/in/kalesh-j-788521244/",
+            i_link:"https://www.instagram.com/kalesh__j"
         },
         {
             image:wh_logo,
@@ -95,25 +95,25 @@ const Obs_list = [
             image:yasmin,
             name:"YASMIN K",
             desg:"ADMINISTRATIVE MANAGER",
-            p_link:"Nil",
+            p_link:"https://tryhackme.com/p/Yasmincyber",
             l_link:"https://linkedin.com/in/yasmin-kasim-a50680263",
-            i_link:"Nil"
+            i_link:"https://www.instagram.com/_.itxzyas"
         },
         {
             image:arun,
             name:"ARUN KUMAR M",
             desg:"FUNCTIONAL HEAD",
             p_link:"Nil",
-            l_link:"Nil",
-            i_link:"Nil"
+            l_link:"https://www.linkedin.com/in/arun-kumar-9a9a4a318/",
+            i_link:"https://www.instagram.com/_imarunk"
         },
         {
             image:wh_logo,
             name:"RAHAMATHULLA K",
             desg:"FUNCTIONAL HEAD",
             p_link:"Nil",
-            l_link:"Nil",
-            i_link:"Nil"
+            l_link:"www.linkedin.com/in/raha18/",
+            i_link:"https://www.instagram.com/_imrahx"
         },
         {
             image:ananthi,
@@ -121,23 +121,23 @@ const Obs_list = [
             desg:"FUNCTIONAL MANAGER",
             p_link:"Nil",
             l_link:"https://linkedin.com/in/anathi-p-4109a5282",
-            i_link:"Nil"
+            i_link:"https://www.instagram.com/ananthiiyyee"
         },
         {
             image:alagu,
             name:"ALAGU SRUTHI BHARATHI A",
             desg:"FUNCTIONAL MANAGER",
-            p_link:"Nil",
+            p_link:"https://tryhackme.com/p/alagusruthibhara",
             l_link:"https://linkedin.com/in/alagu-sruthi-bharathi-b4952325a",
-            i_link:"Nil"
+            i_link:"https://www.instagram.com/alagusruthi/"
         },
         {
             image:benjamin,
             name:"REINHARDT BENJAMIN E",
             desg:"VISUAL HEAD",
-            p_link:"Nil",
-            l_link:"Nil",
-            i_link:"Nil"
+            p_link:"https://tryhackme.com/p/reinhardtbenjami",
+            l_link:"https://www.linkedin.com/in/reinhardt-benjamin-2a1558244/",
+            i_link:"https://www.instagram.com/_reinhardt_benjamin/"
         },
         {
             image:keerthik,
@@ -145,47 +145,47 @@ const Obs_list = [
             desg:"PROMOTIONAL MANAGER",
             p_link:"Nil",
             l_link:"https://linkedin.com/in/jayakeerthick-r",
-            i_link:"Nil"
+            i_link:"https://www.instagram.com/iam_trago/"
         },
         {
             image:wh_logo,
             name:"SHARIKA J",
             desg:"PROMOTIONAL MANAGER",
             p_link:"Nil",
-            l_link:"Nil",
-            i_link:"Nil"
+            l_link:"https://www.linkedin.com/in/sharika-jambukeswaran-bb767b263/",
+            i_link:"https://www.instagram.com/shar_ika03/"
         },
         {
             image:rithika,
             name:"RITHIGA ROOBINI R",
             desg:"EXECUTIVE COMMITTEE",
             p_link:"Nil",
-            l_link:"Nil",
+            l_link:"https://www.linkedin.com/in/rithigaroobini/",
             i_link:"Nil"
         },
         {
             image:sujith,
             name:"SUJITH K",
             desg:"EXECUTIVE COMMITTEE",
-            p_link:"Nil",
-            l_link:"Nil",
-            i_link:"Nil"
+            p_link:"https://tryhackme.com/p/ksujith",
+            l_link:"https://www.linkedin.com/in/sujith-kannan-37b0652a4/",
+            i_link:"https://www.instagram.com/sujith__1506/"
         },
         {
             image:rakesh,
             name:"RAKESH KANNAN C K",
             desg:"EXECUTIVE COMMITTEE",
-            p_link:"Nil",
-            l_link:"Nil",
-            i_link:"Nil"
+            p_link:"https://tryhackme.com/p/rakeshkannan",
+            l_link:"https://www.linkedin.com/in/rakesh005",
+            i_link:"https://www.instagram.com/_am_rakesh_kannan_/"
         },
         {
             image:vinitha,
             name:"VINITHA G",
             desg:"EXECUTIVE COMMITTEE",
-            p_link:"Nil",
-            l_link:"Nil",
-            i_link:"Nil"
+            p_link:"https://tryhackme.com/p/vinithasri630",
+            l_link:"https://www.linkedin.com/in/vinitha2024/",
+            i_link:"https://www.instagram.com/its.vini._/"
         },
 ]
 
