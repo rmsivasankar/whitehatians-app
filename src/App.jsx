@@ -29,8 +29,8 @@ const App = () => {
         <Route path="/office-bearers" element={<OfficeBearer />} />
         <Route path='/all-ob' element={<Obs />} />
         <Route path="/contact-us" element={<Contact />} />
-        <Route path="/events/codewars" element={<Matrixz />}/>
-        <Route path="/events/hackops" element={<Hackops />}/>
+        <Route path="/codewars" element={<Matrixz />}/>
+        <Route path="/hackops" element={<Hackops />}/>
         <Route path="*" element={<h1 className='not-found'>Page Not Found<br></br> Error 404 </h1>} />
       </Routes>
       <Footer />
