@@ -33,7 +33,7 @@ const Ob_list = [
             image:ganesh,
             name:"K A GANESH",
             desg:"TREASURER",
-            p_link:"/src/assets/events/KAGanesh.pdf",
+            p_link:"https://drive.google.com/file/d/1-NvJzN5OdflyR0qnD2usctGJOQBug0Ro/view?usp=sharing",
             l_link:"Nil",
             i_link:"Nil"
         },
