@@ -17,6 +17,7 @@ import rithika from '../Images/Obs/Rithiga Roobini R.jpg'
 import sujith from '../Images/Obs/Sujith kannan.jpg'
 import rakesh from '../Images/Obs/Rakesh Kannan C K .jpg'
 import vinitha from '../Images/Obs/Vinitha.jpg'
+import surya from '../Images/Obs/Surya.jpg'
 
 const Obs_list = [
         {
