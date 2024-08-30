@@ -3,6 +3,7 @@ import venu from '../Images/Obs/venusarathy.jpg'
 import siva from '../Images/Obs/siva.png'
 import meena from '../Images/Obs/meena.png'
 import ganesh from '../Images/Obs/KA_ganesh.jpg'
+import pdf from '../assets/events/KAGanesh.pdf'
 
 const Ob_list = [
         {
@@ -33,7 +34,7 @@ const Ob_list = [
             image:ganesh,
             name:"K A GANESH",
             desg:"TREASURER",
-            p_link:"Nil",
+            p_link:pdf,
             l_link:"Nil",
             i_link:"Nil"
         },
