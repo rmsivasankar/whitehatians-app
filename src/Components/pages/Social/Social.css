@@ -1,0 +1,77 @@
+/* Existing styles */
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    margin-top: 3rem;
+    color: white;
+}
+
+.hh h1 {
+    text-align: center;
+    color: #a66ecc;
+    font-size: 40px;
+}
+
+.company {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.company img {
+    width: 80px;
+    border-radius: 100px;
+}
+
+.rules ol li {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.gift {
+    margin-top: 40px;
+    display: flex; /* Use flexbox to align images horizontally */
+    gap: 50px; /* Add gap between images */
+    position: relative;
+}
+
+.gift img {
+    width: 200px;
+    transition: filter 0.3s ease; /* Smooth transition for filter effect */
+    filter: grayscale(100%); /* Black and white effect */
+}
+
+/* New styles for the pop-up */
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    z-index: 10; /* Ensure the pop-up is above other content */
+}
+
+.gift:hover .popup {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Hover effect for the gift images */
+.gift:hover img {
+    filter: grayscale(0%); /* Return to color on hover */
+}

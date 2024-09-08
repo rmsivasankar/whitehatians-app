@@ -14,6 +14,7 @@ import Obs from './Components/pages/Obs/Obs';
 import ScrollToTop from './Components/ScrollToTop';
 import Matrixz from './Components/pages/Events/Ctf/Matrixz';
 import Hackops from './Components/pages/Events/Ctf/Hackops';
+import Social from './Components/pages/Social/Social';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/codewars" element={<Matrixz />}/>
         <Route path="/hackops" element={<Hackops />}/>
+        <Route path="/social" element={<Social />}/>
         <Route path="*" element={<h1 className='not-found'>Page Not Found<br></br> Error 404 </h1>} />
       </Routes>
       <Footer />
