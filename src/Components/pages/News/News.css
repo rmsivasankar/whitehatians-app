@@ -30,8 +30,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .card-header img {
-    width: 80%;
-    height: 160px;
+    width: 60%;
+    height: 120px;
     object-fit: cover;
 }
 .card-body {
