@@ -39,7 +39,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border-radius: solid white 1px;
     padding: 20px;
     min-height: 200px;
 }
